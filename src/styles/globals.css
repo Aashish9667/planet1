@@ -1,5 +1,10 @@
+@import "aos/dist/aos.css";
 @import "tailwindcss";
-
+html, body, #__next {
+  overflow-x: hidden; /* prevent horizontal scroll globally */
+;
+  
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
