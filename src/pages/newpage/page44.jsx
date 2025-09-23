@@ -72,7 +72,7 @@ const Page2 = () => {
     },
     {
       tag: "New",
-      img: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+      img: "/image20.jpg",
       title: "Stylish Watch For Man",
       price: "95.00",
     },
