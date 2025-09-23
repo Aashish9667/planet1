@@ -14,19 +14,20 @@ const categories = [
     id: 1,
     name: "Accessories",
     products: "8 Products Available",
-    img: "/image9.jpg",
+    img: "/image20.jpg",
+  },
+  
+  {
+    id: 3,
+    name: "Electronics",
+    products: "12 Products Available",
+    img: "/image13.jpg",
   },
   {
     id: 2,
     name: "Bags",
     products: "4 Products Available",
     img: "/image12.jpg",
-  },
-  {
-    id: 3,
-    name: "Electronics",
-    products: "12 Products Available",
-    img: "/image13.jpg",
   },
   {
     id: 4,
