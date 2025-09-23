@@ -1,11 +1,11 @@
 import Page1 from "./newpage/page1";
 import Page22 from "./newpage/page22";
-import Navbar from "./newpage/Navbar";
+import Navbar from "./newpage/navbar";
 import Page3 from "./newpage/page3";
 import Page4 from "./newpage/page4";
-import Page44 from "./newpage/Page44";
-import Footer  from "./newpage/Footer";
-import LastPage  from "./newpage/Lastpage";
+import Page44 from "./newpage/page44";
+import Footer  from "./newpage/footer";
+import LastPage  from "./newpage/lastpage";
 export default function Home() {
   return (
     <div>
