@@ -97,17 +97,18 @@ const Page2 = () => {
       <Swiper
         modules={[Autoplay]}
         spaceBetween={20}
-        loop
-        freeMode
-        freeModeMomentum={false}
-        autoplay={{ delay: 0, disableOnInteraction: false }}
-        speed={3000}
-        slidesPerView="auto"
-        allowTouchMove={false}
+        loop={true}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        speed={500}
+         // default mobile
+        breakpoints={{
+          640: { slidesPerView: 2 }, // small tablets
+          1024: { slidesPerView: 4 }, // desktop
+        }}
         className="max-w-[1100px] mx-auto"
       >
         {products.map((product, index) => (
-          <SwiperSlide key={index} style={{ width: "250px" }}>
+          <SwiperSlide key={index} style={{ width: "auto" }}>
             <div data-aos="zoom-in" data-aos-delay={index * 150}>
               <ProductCard {...product} />
             </div>

@@ -1,21 +1,21 @@
 import Page1 from "./newpage/page1";
-import Page22 from "./newpage/page22";
-import Navbar from "./newpage/navbar";
+import Shop from "./newpage/shop";
+import Nav from "./newpage/nav";
 import News from "./newpage/news";
-import Page4 from "./newpage/page4";
-import Page44 from "./newpage/page44";
+import Ourservices from "./newpage/ourservices";
+import Accessories from "./newpage/accessories";
 import Footer  from "./newpage/footer";
-import LastPage  from "./newpage/lastpage";
+import Paymentfotter  from "./newpage/paymentfotter";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <Nav />
       <section id="home" className="scroll-mt-20">
   <Page1 />
 </section>
 
 <section id="shop" className="scroll-mt-20">
-  <Page22 />
+  <Shop />
 </section>
 
 <section id="products" className="scroll-mt-20">
@@ -23,13 +23,13 @@ export default function Home() {
 </section>
 
 <section id="accessories" className="scroll-mt-20">
-  <Page44 />
+  <Accessories />
 </section>
-<Page4/>
+<Ourservices/>
 <section id="footer" className="scroll-mt-20">
 <Footer/>
 </section>
-<LastPage/>
+<Paymentfotter/>
     </div>
   );
 }

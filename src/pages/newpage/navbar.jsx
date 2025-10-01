@@ -108,8 +108,9 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
+      {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white shadow-lg px-4 py-3 space-y-2">
+        <div className="md:hidden fixed top-16 left-0 w-full bg-white shadow-lg px-4 py-4 space-y-2 z-40">
           {Object.keys(routes).map((item) => (
             <button
               key={item}
