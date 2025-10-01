@@ -1,7 +1,7 @@
 import Page1 from "./newpage/page1";
 import Page22 from "./newpage/page22";
 import Navbar from "./newpage/navbar";
-import Page3 from "./newpage/page3";
+import News from "./newpage/news";
 import Page4 from "./newpage/page4";
 import Page44 from "./newpage/page44";
 import Footer  from "./newpage/footer";
@@ -19,7 +19,7 @@ export default function Home() {
 </section>
 
 <section id="products" className="scroll-mt-20">
-  <Page3 />
+  <News />
 </section>
 
 <section id="accessories" className="scroll-mt-20">
